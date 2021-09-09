@@ -1,0 +1,57 @@
+body
+{
+    margin: 0;
+}
+
+.navbar-container
+{
+    background-color:#132C33;
+}
+
+.navbar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-logo li
+{
+    float: left;
+}
+
+.navbar-menu
+{
+    float: right;
+}
+
+.navbar-menu li
+{
+    display:inline-block;
+}
+
+.navbar-menu li a:hover:not(.active)
+{
+ background-color: #111;
+}
+
+.navbar li a
+{
+    display: block;
+    color: #D8E3E7;
+    text-align: center;
+    padding: 18px 25px;
+    text-decoration: none;
+}
+
+.active
+{
+    background-color: #51C4D3;
+}
+
+.container
+{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
