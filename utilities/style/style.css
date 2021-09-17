@@ -1,11 +1,13 @@
 body
 {
     margin: 0;
+    background-color:#132C33;
 }
 
 .navbar-container
 {
     background-color:#132C33;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .navbar
