@@ -2,7 +2,7 @@
 var i = 0; // start point
 var images = [];
 var time = 3000;
-var imgDir = '../../images/'
+var imgDir = '../../images/';
 
 //img list
 images[0] = imgDir +'img1.jpg';
@@ -24,6 +24,7 @@ function ChangeImg()
 $(function()
 {
     $("#navigation-bar").load("../../utilities/navigation-bar/navigation-bar.html");
+    $("#latest-news").load("../../utilities/latest-news/latest-news.html");
 });
 
 function Redirecting(targetPage)
