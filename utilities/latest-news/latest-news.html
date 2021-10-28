@@ -1,24 +1,29 @@
 <div class="cards-container distance container">
     <div class="latest-news-header">
-        <span class="text-headline"> Lates News</span>
+        <span class="text-headline"><b> Lates News</b></span>
         <hr class="line-headline">
     </div>
- 
-    <div class="card distance">
-        <div class="card-img">
-            <img src="../../images/hutao.jpg" alt="Hu tao" >
-        </div>
 
-        <div class="card-details">
-            <div class="card-title">
-                <span> this is card titlesssssssssssssssssssssssssssssssssssssssssssssssssss</span>
-            </div>
-    
-            <div class="card-content">
-                <span> this is card content</span>
-            </div>
-            
-        </div>
-
+    <div class="table-container distance">
+        <table>
+            <tr>
+                <td rowspan="2" class="card-img"><img src="../../images/hutao.jpg" alt="Hu tao" ></td>
+                <td class="card-title"><a href="#"> <b>This is card titles</b></a></td>
+            </tr>
+            <tr>
+                <td class="card-details "><span id="card-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi ex, rhoncus ut metus nec, tempus imperdiet magna. Fusce sapien ante, convallis at viverra sit amet, congue vel ante. Sed risus enim, lobortis eget tortor sit amet, semper pellentesque nisl. Duis eget felis leo. Maecenas hendrerit ultricies odio vel euismod. Curabitur augue ligula, ultrices ac ultricies quis, pulvinar eu tortor. Integer non consectetur nibh. Proin sapien libero, semper vel ex in, condimentum facilisis nunc. Cras blandit velit non nisi mattis pellentesque. Pellentesque vitae venenatis justo. </span></td>
+            </tr>
+        </table>
     </div>
+
 </div>
+<script>
+$(function()
+{
+    str = document.getElementById("card-detail").innerHTML;
+    strResult = document.getElementById("card-detail");
+
+    TruncateText(str,strResult);
+});
+
+</script>

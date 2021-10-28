@@ -1,4 +1,3 @@
-
 var i = 0; // start point
 var images = [];
 var time = 3000;
@@ -21,13 +20,21 @@ function ChangeImg()
     setTimeout("ChangeImg()",time);
 }
 
-$(function()
-{
-    $("#navigation-bar").load("../../utilities/navigation-bar/navigation-bar.html");
-    $("#latest-news").load("../../utilities/latest-news/latest-news.html");
-});
-
 function Redirecting(targetPage)
 {
     document.location.replace(targetPage);
 }
+
+function TruncateText(str, str2)
+{
+    if(str.length > 250)
+        str2.innerHTML = str.substr(0,250) + "...";
+}
+
+$(function()
+{
+    $("#navigation-bar").load("../../utilities/navigation-bar/navigation-bar.html");
+    $("#slideshow-main").load("../../utilities/slideshow-main/slideshow-main.html");
+    $("#latest-news").load("../../utilities/latest-news/latest-news.html");
+    
+});

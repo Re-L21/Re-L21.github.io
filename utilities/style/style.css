@@ -9,13 +9,13 @@ body
 
 .container
 {
-    margin-left: 10vw !important;
-    margin-right: 10vw !important;
+    margin-left: 16vw !important;
+    margin-right: 16vw !important;
 }
 
 .distance
 {
-    margin-top: 2vw;
+    margin-top: 1.5vw;
 }
 
 .line-headline
@@ -27,7 +27,7 @@ body
 
 .text-headline
 {
-    font-size: 2.2vw;
+    font-size: 1.8vw;
 }
 
 /* navigation bar section */
@@ -74,7 +74,6 @@ body
     padding: 18px 25px;
     text-decoration: none;
     text-shadow: 1px 1px black;
-    font-size: 1.4vw;
 }
 
 .active
@@ -89,7 +88,7 @@ body
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
 }
 
 .img-slide
@@ -100,20 +99,52 @@ body
 
 /* latest news section */
 
-.cards-container
+.table-container
 {
-    height: auto;
+    width: 70%;
+}
+
+.table-container table
+{
+    width: 100%;
 }
 
 .card-img
 {
-    display: inline-block;
+    width: 20%;
+}
+
+.card-img img
+{
+    width: auto;
+    height: 10vw;
+}
+
+.card-title
+{
+    height: 5vw;
+    align-items: top;
+    display: flex;
+}
+
+.card-title a
+{
+    text-decoration: none;
+    padding-top: 1.5vw;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.card-title a:hover
+{
+    text-decoration: underline;
 }
 
 .card-details
 {
-    display: inline-block;
-    
+    height: 5vw;
+    align-items: top;
+    display: flex;
 }
 
 
